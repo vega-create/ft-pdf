@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+---
+<BaseLayout>
+  <SEO slot="head" title="About Us" description="Learn about FreeToolkit PDF — free, private PDF processing tools." />
+  <div class="max-w-3xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">About FreeToolkit PDF</h1>
+    <div class="prose prose-gray max-w-none">
+      <p>FreeToolkit PDF provides free PDF tools that run entirely in your browser using pdf-lib. Merge, split, rotate, convert, watermark, and more — without uploading files to any server.</p>
+      <h2>Privacy First</h2>
+      <p>All PDF processing happens locally on your device. Your files are never uploaded, transmitted, or stored on any server. We cannot see or access your documents.</p>
+      <h2>Part of FreeToolkit</h2>
+      <p>FreeToolkit PDF is part of the <a href="https://freetoolkit.cc" class="text-primary-600">FreeToolkit</a> family of free online tools.</p>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,12 @@
+---
+import { siteConfig } from '../site.config';
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": siteConfig.name,
+  "description": siteConfig.description,
+  "url": siteConfig.url,
+  "publisher": { "@type": "Organization", "name": siteConfig.author, "url": "https://freetoolkit.cc" },
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

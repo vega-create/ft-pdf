@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SEO from '../components/SEO.astro';
+import AdSense from '../components/AdSense.astro';
+import MergePdf from '../components/tools/MergePdf';
+---
+<BaseLayout>
+  <SEO slot="head" title="Merge PDF" description="Combine multiple PDF files into one document." />
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    <nav class="text-sm text-gray-500 mb-6"><a href="/" class="hover:text-primary-600">Home</a> <span class="mx-2">›</span> <span class="text-gray-900">Merge PDF</span></nav>
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">Merge PDF</h1>
+    <MergePdf client:load />
+    <AdSense slot="bottom" />
+  </div>
+</BaseLayout>

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; }
+
+.adsense-slot { min-height: 90px; }
+.adsense-slot ins { display: block; }
+
+input[type="number"], input[type="text"], select {
+  @apply w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 outline-none transition-all text-gray-900;
+}
+select { @apply appearance-none bg-white; }
+label { @apply block text-sm font-medium text-gray-700 mb-1; }

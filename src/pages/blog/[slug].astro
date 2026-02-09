@@ -1,0 +1,24 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SEO from '../../components/SEO.astro';
+import AdSense from '../../components/AdSense.astro';
+import { getCollection } from 'astro:content';
+export async function getStaticPaths() { const posts = await getCollection('posts'); return posts.map(post => ({params:{slug:post.id},props:{post}})); }
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+<BaseLayout>
+  <SEO slot="head" title={post.data.title} description={post.data.description} />
+  <article class="max-w-3xl mx-auto px-4 py-8">
+    <nav class="text-sm text-gray-500 mb-6"><a href="/" class="hover:text-primary-600">Home</a><span class="mx-2">›</span><a href="/blog/" class="hover:text-primary-600">Blog</a><span class="mx-2">›</span><span class="text-gray-900">{post.data.title}</span></nav>
+    <header class="mb-8">
+      <div class="flex items-center gap-3 mb-3"><span class="px-2 py-0.5 bg-red-50 text-red-700 text-xs font-medium rounded-full uppercase">{post.data.category}</span><time datetime={post.data.publishDate} class="text-sm text-gray-400">{new Date(post.data.publishDate).toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})}</time></div>
+      <h1 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">{post.data.title}</h1>
+      <p class="text-lg text-gray-600 mt-3">{post.data.description}</p>
+    </header>
+    <AdSense slot="top" />
+    <div class="prose prose-gray prose-lg max-w-none"><Content /></div>
+    <AdSense slot="bottom" />
+    <div class="mt-8 p-6 bg-red-50 rounded-2xl"><p class="text-red-800 font-medium">📄 Need to edit a PDF?</p><p class="text-red-600 text-sm mt-1">Try our <a href="/" class="underline font-medium">free PDF tools</a> — no upload required.</p></div>
+  </article>
+</BaseLayout>

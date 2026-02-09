@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SEO from '../../components/SEO.astro';
+import { getCollection } from 'astro:content';
+const allPosts = await getCollection('posts');
+const posts = allPosts.filter(p => new Date(p.data.publishDate) <= new Date()).sort((a,b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime());
+const categories = [...new Set(posts.map(p => p.data.category))];
+---
+<BaseLayout>
+  <SEO slot="head" title="PDF Guides & Tips" description="Guides on PDF tools, optimization, accessibility, and document management." />
+  <div class="max-w-4xl mx-auto px-4 py-10">
+    <header class="mb-10"><h1 class="text-3xl font-bold text-gray-900">📄 PDF Guides & Tips</h1><p class="text-gray-600 mt-2">Practical guides for working with PDF files.</p></header>
+    <div class="flex flex-wrap gap-2 mb-8" id="category-filter">
+      <button data-category="all" class="px-3 py-1 bg-primary-600 text-white text-sm rounded-full font-medium active-filter">All</button>
+      {categories.map(cat => (<button data-category={cat} class="px-3 py-1 bg-gray-100 text-gray-600 text-sm rounded-full hover:bg-gray-200 cursor-pointer">{cat}</button>))}
+    </div>
+    <div class="space-y-6" id="post-list">
+      {posts.map(post => (
+        <a href={`/blog/${post.id}/`} data-post-category={post.data.category} class="block bg-white rounded-xl border border-gray-100 p-6 hover:shadow-md hover:border-primary-200 transition-all group">
+          <div class="flex items-center gap-3 mb-2">
+            <span class="px-2 py-0.5 bg-red-50 text-red-700 text-xs font-medium rounded-full uppercase">{post.data.category}</span>
+            <time datetime={post.data.publishDate} class="text-xs text-gray-400">{new Date(post.data.publishDate).toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'})}</time>
+          </div>
+          <h2 class="text-xl font-semibold text-gray-900 group-hover:text-primary-600">{post.data.title}</h2>
+          <p class="text-gray-600 mt-2 text-sm line-clamp-2">{post.data.description}</p>
+        </a>
+      ))}
+    </div>
+    <script is:inline>
+      document.getElementById('category-filter').addEventListener('click',e=>{const btn=e.target.closest('button');if(!btn)return;const cat=btn.dataset.category;document.querySelectorAll('#category-filter button').forEach(b=>{b.classList.remove('bg-primary-600','text-white','active-filter');b.classList.add('bg-gray-100','text-gray-600')});btn.classList.remove('bg-gray-100','text-gray-600');btn.classList.add('bg-primary-600','text-white','active-filter');document.querySelectorAll('#post-list > a').forEach(p=>{p.style.display=(cat==='all'||p.dataset.postCategory===cat)?'':'none'})});
+    </script>
+  </div>
+</BaseLayout>
