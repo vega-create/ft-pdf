@@ -14,8 +14,6 @@ faq:
   - q: "Do I need Adobe Acrobat for PDF editing?"
     a: "No! Our free online PDF tools can handle most common tasks including merging, splitting, compressing, and converting PDFs. No paid software or account needed."
 ---
-
-<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1rem; border: 1px solid #e2e8f0;"><div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.6rem;">PDF File Structure</div><div style="display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.75rem;"><div style="background: #dbeafe; padding: 0.4rem 0.6rem; border-radius: 6px; font-weight: 600; color: #1e40af;">Header — %PDF-1.7</div><div style="background: #dcfce7; padding: 0.6rem; border-radius: 6px; font-weight: 600; color: #166534;">Body — Objects (text, images, fonts)</div><div style="background: #fef3c7; padding: 0.4rem 0.6rem; border-radius: 6px; font-weight: 600; color: #92400e;">Cross-Reference Table — Object locations</div><div style="background: #fce7f3; padding: 0.4rem 0.6rem; border-radius: 6px; font-weight: 600; color: #9d174d;">Trailer — Entry point</div></div></div>
 PDF (Portable Document Format) is one of the most widely used file formats in the world. Created by Adobe in 1993, it was designed to present documents consistently across different platforms and devices.
 
 ## History of PDF

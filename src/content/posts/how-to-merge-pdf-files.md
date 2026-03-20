@@ -14,8 +14,6 @@ faq:
   - q: "Do I need Adobe Acrobat for PDF editing?"
     a: "No! Our free online PDF tools can handle most common tasks including merging, splitting, compressing, and converting PDFs. No paid software or account needed."
 ---
-
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem;"><div style="padding: 0.7rem; background: #dbeafe; border-radius: 10px; text-align: center; border: 1px solid #93c5fd;"><div style="font-weight: 700; color: #1e40af; font-size: 0.85rem;">Online</div><div style="font-size: 0.7rem; color: #6b7280;">Free, 25MB limit</div></div><div style="padding: 0.7rem; background: #dcfce7; border-radius: 10px; text-align: center; border: 1px solid #86efac;"><div style="font-weight: 700; color: #166534; font-size: 0.85rem;">Desktop</div><div style="font-size: 0.7rem; color: #6b7280;">Unlimited, offline</div></div><div style="padding: 0.7rem; background: #fef3c7; border-radius: 10px; text-align: center; border: 1px solid #fde68a;"><div style="font-weight: 700; color: #92400e; font-size: 0.85rem;">CLI</div><div style="font-size: 0.7rem; color: #6b7280;">Batch, scriptable</div></div></div>
 Merging PDF files is one of the most common document tasks. Whether you need to combine reports, merge scanned documents, or create a single file from multiple sources, there are several ways to accomplish this.
 
 ## Why Merge PDFs?

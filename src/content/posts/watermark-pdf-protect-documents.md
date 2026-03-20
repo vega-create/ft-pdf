@@ -14,8 +14,6 @@ faq:
   - q: "Do I need Adobe Acrobat for PDF editing?"
     a: "No! Our free online PDF tools can handle most common tasks including merging, splitting, compressing, and converting PDFs. No paid software or account needed."
 ---
-
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem;"><div style="padding: 0.6rem; background: #dbeafe; border-radius: 8px; text-align: center; border: 1px solid #93c5fd; font-size: 0.75rem;"><b style="color: #1e40af;">Text Overlay</b><br><span style="color: #6b7280;">"CONFIDENTIAL"</span></div><div style="padding: 0.6rem; background: #dcfce7; border-radius: 8px; text-align: center; border: 1px solid #86efac; font-size: 0.75rem;"><b style="color: #166534;">Logo Overlay</b><br><span style="color: #6b7280;">Brand protection</span></div><div style="padding: 0.6rem; background: #fef3c7; border-radius: 8px; text-align: center; border: 1px solid #fde68a; font-size: 0.75rem;"><b style="color: #92400e;">Diagonal Stamp</b><br><span style="color: #6b7280;">"DRAFT" across page</span></div><div style="padding: 0.6rem; background: #fce7f3; border-radius: 8px; text-align: center; border: 1px solid #f9a8d4; font-size: 0.75rem;"><b style="color: #9d174d;">Invisible Digital</b><br><span style="color: #6b7280;">Hidden tracking</span></div></div>
 Watermarks are visible marks added to PDF pages that serve as a deterrent against unauthorized use and help identify the document source. They are commonly used for branding, document classification, and ownership protection.
 
 ## Types of Watermarks

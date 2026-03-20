@@ -14,8 +14,6 @@ faq:
   - q: "Do I need Adobe Acrobat for PDF editing?"
     a: "No! Our free online PDF tools can handle most common tasks including merging, splitting, compressing, and converting PDFs. No paid software or account needed."
 ---
-
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.4rem;"><div style="padding: 0.5rem; background: #dbeafe; border-radius: 8px; text-align: center; border: 1px solid #93c5fd; font-size: 0.75rem;"><b style="color: #1e40af;">📝</b><br>Text Input</div><div style="padding: 0.5rem; background: #dcfce7; border-radius: 8px; text-align: center; border: 1px solid #86efac; font-size: 0.75rem;"><b style="color: #166534;">☑️</b><br>Checkbox</div><div style="padding: 0.5rem; background: #fef3c7; border-radius: 8px; text-align: center; border: 1px solid #fde68a; font-size: 0.75rem;"><b style="color: #92400e;">◉</b><br>Radio</div><div style="padding: 0.5rem; background: #ede9fe; border-radius: 8px; text-align: center; border: 1px solid #c4b5fd; font-size: 0.75rem;"><b style="color: #6d28d9;">▾</b><br>Dropdown</div><div style="padding: 0.5rem; background: #fce7f3; border-radius: 8px; text-align: center; border: 1px solid #f9a8d4; font-size: 0.75rem;"><b style="color: #9d174d;">✍️</b><br>Signature</div><div style="padding: 0.5rem; background: #e2e8f0; border-radius: 8px; text-align: center; border: 1px solid #cbd5e1; font-size: 0.75rem;"><b style="color: #475569;">📅</b><br>Date</div></div>
 Fillable PDF forms allow recipients to enter information directly into the document. They are widely used for applications, surveys, order forms, and any document that collects standardized information.
 
 ## Types of Form Fields

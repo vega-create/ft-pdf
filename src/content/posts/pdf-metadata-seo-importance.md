@@ -14,8 +14,6 @@ faq:
   - q: "Do I need Adobe Acrobat for PDF editing?"
     a: "No! Our free online PDF tools can handle most common tasks including merging, splitting, compressing, and converting PDFs. No paid software or account needed."
 ---
-
-<div style="margin: 2rem 0; background: #f8fafc; border-radius: 12px; padding: 1rem; border: 1px solid #e2e8f0;"><div style="font-weight: 700; font-size: 0.85rem; color: #334155; margin-bottom: 0.6rem;">Key PDF Metadata Fields</div><div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.3rem; font-size: 0.75rem;"><div style="background: #dbeafe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 600; color: #1e40af;">Title</div><div style="background: #dcfce7; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 600; color: #166534;">Author</div><div style="background: #fef3c7; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 600; color: #92400e;">Subject</div><div style="background: #ede9fe; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 600; color: #6d28d9;">Keywords</div><div style="background: #fce7f3; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 600; color: #9d174d;">Created</div><div style="background: #e2e8f0; padding: 0.4rem; border-radius: 6px; text-align: center; font-weight: 600; color: #475569;">Modified</div></div></div>
 PDF metadata is information embedded in a PDF file that describes the document itself. This includes the title, author, subject, keywords, creation date, and modification date. Properly set metadata improves both search visibility and document organization.
 
 ## What Is PDF Metadata?

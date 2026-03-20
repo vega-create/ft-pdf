@@ -14,8 +14,6 @@ faq:
   - q: "Do I need Adobe Acrobat for PDF editing?"
     a: "No! Our free online PDF tools can handle most common tasks including merging, splitting, compressing, and converting PDFs. No paid software or account needed."
 ---
-
-<div style="margin: 2rem 0; background: #f0fdf4; border-radius: 12px; padding: 1.2rem; border: 1px solid #bbf7d0;"><div style="font-weight: 700; font-size: 0.85rem; color: #166534; margin-bottom: 0.8rem;">Where PDF Size Savings Come From</div><div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;"><div style="width: 80%; background: #16a34a; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">Image compression — ~60% savings</div></div><div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem;"><div style="width: 35%; background: #22c55e; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: white;">Font subsetting — ~20%</div></div><div style="display: flex; align-items: center; gap: 0.5rem;"><div style="width: 15%; background: #86efac; padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.75rem; font-weight: 600; color: #166534;">Metadata — ~5%</div></div></div>
 Large PDF files are inconvenient to share, slow to upload, and consume unnecessary storage. Fortunately, there are several effective ways to reduce PDF size while maintaining acceptable quality.
 
 ## Why PDFs Get Large

@@ -14,8 +14,6 @@ faq:
   - q: "Do I need Adobe Acrobat for PDF editing?"
     a: "No! Our free online PDF tools can handle most common tasks including merging, splitting, compressing, and converting PDFs. No paid software or account needed."
 ---
-
-<div style="margin: 2rem 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem;"><div style="padding: 0.6rem; background: #dbeafe; border-radius: 8px; text-align: center; border: 1px solid #93c5fd; font-size: 0.75rem;"><b style="color: #1e40af;">CLI Tools</b><br><span style="color: #6b7280;">Fastest, scriptable</span></div><div style="padding: 0.6rem; background: #dcfce7; border-radius: 8px; text-align: center; border: 1px solid #86efac; font-size: 0.75rem;"><b style="color: #166534;">Python</b><br><span style="color: #6b7280;">Flexible, custom logic</span></div><div style="padding: 0.6rem; background: #fef3c7; border-radius: 8px; text-align: center; border: 1px solid #fde68a; font-size: 0.75rem;"><b style="color: #92400e;">Online Tools</b><br><span style="color: #6b7280;">Easy, size limits</span></div><div style="padding: 0.6rem; background: #fce7f3; border-radius: 8px; text-align: center; border: 1px solid #f9a8d4; font-size: 0.75rem;"><b style="color: #9d174d;">Desktop Apps</b><br><span style="color: #6b7280;">GUI, offline</span></div></div>
 Working with large numbers of PDF files requires efficient strategies and the right tools. Whether you are processing invoices, merging reports, or organizing scanned documents, batch processing saves significant time.
 
 ## Planning Your Workflow

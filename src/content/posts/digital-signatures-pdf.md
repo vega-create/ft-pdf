@@ -14,8 +14,6 @@ faq:
   - q: "Do I need Adobe Acrobat for PDF editing?"
     a: "No! Our free online PDF tools can handle most common tasks including merging, splitting, compressing, and converting PDFs. No paid software or account needed."
 ---
-
-<div style="margin: 2rem 0; background: #eff6ff; border-radius: 12px; padding: 1rem; border: 1px solid #bfdbfe;"><div style="font-weight: 700; font-size: 0.85rem; color: #1e40af; margin-bottom: 0.6rem;">Digital Signature Components</div><div style="display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap; font-size: 0.75rem;"><div style="background: white; padding: 0.4rem 0.6rem; border-radius: 6px; border: 1px solid #93c5fd;"><b>📜</b> Certificate</div><div style="color: #3b82f6;">→</div><div style="background: white; padding: 0.4rem 0.6rem; border-radius: 6px; border: 1px solid #93c5fd;"><b>#</b> Hash</div><div style="color: #3b82f6;">→</div><div style="background: white; padding: 0.4rem 0.6rem; border-radius: 6px; border: 1px solid #93c5fd;"><b>🔑</b> Private Key</div><div style="color: #3b82f6;">→</div><div style="background: #1e40af; color: white; padding: 0.4rem 0.6rem; border-radius: 6px;"><b>✓</b> Signed</div></div></div>
 Digital signatures provide a way to verify the authenticity and integrity of a PDF document. They confirm who signed the document and whether it has been modified since signing.
 
 ## How Digital Signatures Work
