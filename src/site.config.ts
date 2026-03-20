@@ -7,5 +7,5 @@ export const siteConfig = {
   verification: { google: '' },
   tracking: { gtm: '' },
   analytics: { ga4: 'G-9FQB214ZEC', fbPixel: '' },
-  adsense: { client: 'ca-pub-3493526929407874', enabled: true },
+  adsense: { client: 'ca-pub-3493526929407874', enabled: false },
 };
